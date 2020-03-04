@@ -1,0 +1,63 @@
+{
+  "name": "rckit",
+  "version": "0.0.1",
+  "description": "React lib components using styled-components.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-knobs": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "1.19.1",
+    "styled-components": "^4.4.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.9",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "js:build": "babel src -w -d lib --ignore 'src/**/*.spec.js','src/**/*.test.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js:storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "dev": "run-p js:**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/orbinetwork/rckit.git"
+  },
+  "keywords": [
+    "React",
+    "components",
+    "hooks",
+    "styled-components"
+  ],
+  "author": "Orbinetwork",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/orbinetwork/rckit/issues"
+  },
+  "homepage": "https://gitlab.com/orbinetwork/rckit#readme"
+}
