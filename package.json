@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/orbinetwork/rckit.git"
+    "url": "git+https://github.com/amjimenez/rckit"
   },
   "keywords": [
     "React",
@@ -54,10 +54,10 @@
     "hooks",
     "styled-components"
   ],
-  "author": "Orbinetwork",
+  "author": "rckit",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/orbinetwork/rckit/issues"
+    "url": "https://github.com/amjimenez/rckit/issues"
   },
-  "homepage": "https://gitlab.com/orbinetwork/rckit#readme"
+  "homepage": "https://github.com/amjimenez/rckit#readme"
 }

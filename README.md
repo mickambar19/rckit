@@ -11,7 +11,7 @@ When you use these components you will have full compatible components which are
 
 1.  Install dependency
 
-    `$ npm i git+ssh://git@gitlab.com:orbinetwork/rckit.git`
+    `$ npm i git+ssh://git@gitlab.com:rckit/rckit.git`
 
     NOTE: Remember to set your ssh key.
 
